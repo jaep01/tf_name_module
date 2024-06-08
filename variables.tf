@@ -11,6 +11,6 @@ variable "resource_type_in" {
 }
 
 variable "resource_name_max_length_in" {
-  type = number
+  type        = number
   description = "Maximum number of characters allowed in the resource name"
 }

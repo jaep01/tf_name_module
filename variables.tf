@@ -1,13 +1,9 @@
 variable "base_name_in" {
   description = "Base name of a resource"
-  # type = string
 }
 
 variable "resource_type_in" {
   description = "Resource type to create. virtual_machine, key_vault, or storage_account are valid. Any other values will generate an error."
-  # type        = string
-  # default     = "virtual_machine"
-
   validation {
     condition     = contains(["virtual_machine", "key_vault", "storage_account"], var.resource_type_in)
     error_message = "Valid values are virtual_machine, key_vault, or storage_account."

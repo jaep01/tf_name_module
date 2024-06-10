@@ -1,3 +1,7 @@
+#
+# Module: tf_name_module
+#
+
 locals {
   resource_name_prefix = {
     virtual_machine = "vm-"

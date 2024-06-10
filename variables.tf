@@ -1,3 +1,7 @@
+#
+# Module: tf_name_module
+#
+
 variable "base_name_in" {
   description = "Base name of a resource"
 }
